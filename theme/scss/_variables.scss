@@ -1,7 +1,7 @@
 // สีพื้นหลัง
 $body-bg: rgb(244, 244, 234);
 // สีหลัก bg-ชื่อสี , text-ชื่อสี
-$theme-colors: ( "primary": #b1c9d5, "info": #2a9ad9, "success": #6ab778, "warning": #e8a740, "danger": #f44336, "default": #999999, "l": #F3F5F9, "la": #7EA6BD, "main": #B1C9D5, "da": #7D9DB6, "d": #2A9AD9, );
+$theme-colors: ( "primary": #edaf55, "info": #47454c, "success": #7caf52, "warning": #fa9f1a, "danger": #f44336, "default": #999999, "l": #F8F9F9, "la": #CC807B, "main": #EDAF55, "da": #DF525B, "d": #47454C, );
 // เพิ่มขนาดการเว้นระยะ margin / padding
 $spacer: 1rem !default;
 $spacers: () !default;
@@ -48,5 +48,5 @@ $spacers: map-merge( ( 0: 0, 1: ( $spacer * 0.25, ), 2: ( $spacer * 0.5, ), 3: $
 }
 
 .font-Pattaya {
-    font-family: 'Pattaya', sans-serif;
+    font-family: "Pattaya", sans-serif;
 }
