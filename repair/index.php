@@ -27,8 +27,8 @@
         $date=date('Y/m/d');
     
     
-        $sqladd="INSERT INTO `repair_com` (`id`, `name`, `department`, `room`, `building`, `detail`, `tel`, `status`, `dateadd`) 
-        VALUES (NULL, '".$name."', '".$department."', '".$room."', '".$building."', '".$detail."', '".$tel."', '".$status."', '".$date."')";
+        $sqladd="INSERT INTO `repair_com` (`id`, `name`, `department`, `room`, `building`, `detail`, `tel`, `status`, `type`, `userjob`, `dateadd`, `date_now`) 
+        VALUES (NULL, '".$name."', '".$department."', '".$room."', '".$building."', '".$detail."', '".$tel."', '".$status."', '','', '".$date."', '".$date."')";
         
         if($result = $mysqli->query($sqladd) or die($mysqli->error)){ 
             echo '<div class="alert alert-success" role="alert">บันทึกข้อมูลสำเร็จ</div>';
