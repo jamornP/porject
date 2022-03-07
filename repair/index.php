@@ -130,7 +130,7 @@
                                 </div>
                             </div>
                             <div class="col-md-8">
-                                <label for="">อาคร</label>
+                                <label for="">อาคาร</label>
                                 <select class="form-select" aria-label="Default select example" name="building">
                                     <option value="">เลือก</option>
                                     <?php 
