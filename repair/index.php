@@ -18,7 +18,7 @@ require_once('h.php');
         $detail=$_POST['detail'];
         $tel=$_POST['tel'];
         $status="แจ้ง";
-        $date=date('Y/m/d');
+        $date=date('Y/m/d H:i"s');
     
     
         $sqladd="INSERT INTO `repair_com` (`id`, `name`, `department`, `room`, `building`, `detail`, `tel`, `status`, `type`, `userjob`, `dateadd`, `date_now`) 
