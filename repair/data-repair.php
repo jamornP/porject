@@ -46,7 +46,7 @@ require_once('h.php');
 //   $sqlupdate="SELECT * FROM repairdata ORDER BY dateupdate DESC Limit 1";
 
 ?>
-<div class="">
+<div class="font-mali">
     
     <!-- หัว -->
     <div class="">
